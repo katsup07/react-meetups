@@ -1,0 +1,55 @@
+.header {
+  height: 4rem;
+	padding: 0.1rem;
+	display: flex;
+	justify-content: space-between;
+  align-items: flex-end;
+	background: rgb(255, 115, 33);
+	list-style: none;
+	box-shadow: 0 0 0.1rem 0.1rem rgba(0, 0, 0, 0.637);
+}
+
+header li {
+	display: inline;
+	margin: 0.3rem;
+
+	font-weight: 600;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color:  rgb(35, 2, 132);
+}
+
+a {
+  font-family: Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 0.8rem;
+  color: rgb(255, 255, 255);
+	text-decoration: none;
+  margin: 0.3rem;
+  letter-spacing: 0.001rem;
+}
+
+.title{
+  font-size: 2rem;
+  padding: 0.3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.logo {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+.badge {
+  background-color: #2065cc;
+  color: white;
+  border-radius: 12px;
+  padding: 0 1rem;
+  margin-left: 0.5rem;
+}
